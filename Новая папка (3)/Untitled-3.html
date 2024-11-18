@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(cas.jpg);
+            color: red;
+        }
+        body img{
+            width: 200px;
+            height: 400px;
+            animation: anim1 2s;
+        }
+        @keyframes anim1 {
+            0%{opacity: 0; transform: scale(0.1) rotate(-90deg);}
+            100%{opacity: 1; transform: scale(1) rotate(0deg);}
+        }
+    </style>
+</head>
+<body>
+    <img src="faq.png"> <br>
+    <img src="help.jpg"> <br>
+    <img src="faq3.png"> <br>
+    <img src="faq4.webp"> <br>
+    <img src="faq5.webp"> <br>
+    <img src="faq6.webp"> <br>
+    <img src="faq7.webp"> <br>
+    <img src="faq8.webp"> <br>
+    <img src="faq9.webp"> <br>
+    <img src="lok.jpg"> <br>
+    <img src="faq11.webp"> <br>
+</body>
+<script>
+    let cards = ["faq.png", "hel.png", "faq3.png", "faq4.webp", "faq5.webp", "faq6.webp", "faq7.webp", "faq8.webp", "faq9.webp", "faq9.webp", "lok.png", "faq11.webp"]
+    for(let i=0;i<10;1++)
+    document.write(' <img src='+cards[i]+'>');
+</script>
+</html>
